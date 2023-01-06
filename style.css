@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit', sans-serif;  
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+p{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+
+
+.container .card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    
+}
+
+.container .card .image {
+    padding: 20px;
+    
+    
+}
+.container .card .image img{
+    width: 350px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.container .card .image img:hover{
+    
+    cursor: pointer;
+
+}
+ 
+
+
+.container .card .image h1{
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 20px;
+}
+.container .card .image h1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+
+}
+.container .card .image p{
+    width: 25ch;
+    line-height: 1.5;
+    word-spacing: 2px;
+}
+
+.container .card .price-and-time{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.container .card .price-and-time .ethreum{
+    margin-left: 20px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+.container .card .price-and-time .ethreum h2{
+    font-size: 20px;
+    white-space: nowrap;
+    color:  hsl(178, 100%, 50%);
+}
+.container .card .price-and-time .time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    gap: 5px;
+}
+hr{
+    width: calc(100% - 40px);
+    margin:  0 auto 10px auto;
+    border: none;
+    background-color: hsl(215, 51%, 70%);
+    height: .1px;
+    
+    
+}
+
+
+.container .card footer{
+    display: flex;
+   align-items: center;
+   padding: 20px;
+  
+   gap: 5px;
+}
+.container .card footer h3{
+    color: white;
+    font-size: 18px;
+}
+.container .card footer h3:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.container .card footer img{
+    width: 50px;
+    border:1px solid white;
+    border-radius: 50%;
+
+}
+
